@@ -1,0 +1,66 @@
+.body{
+    background-color: #FBD099;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family:'Pacifico', cursive;
+    width: fit-content;
+    margin: auto;
+}
+.layer{
+    width: fit-content;
+    height: 20px;
+    width: 280px;
+    background-color: #E0AD5A;
+    z-index: -10000;
+    margin-top: -25px;
+}
+h1:hover .layer{  
+   height: 40px;
+   margin-top: -40px;
+   transition-delay: 0.1s;
+   transition-duration: 1s;
+   
+}
+
+h2{
+    color:#419F5A ;
+}
+h2 span{
+    color:#79A54C ;
+}
+span i{
+    color:#B3AB3D ;
+}
+.btn{
+    background-color:#9A513E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PT Sans Caption", sans-serif;
+    color: azure;
+}
+.btn:hover{
+    background-color:#9A513E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PT Sans Caption", sans-serif;
+    color: azure;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "PT Sans Caption", sans-serif;
+}
+.home{
+    border-bottom: 2px dashed;
+    border-top: 2px dashed;
+    
+
+}
+th{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "PT Sans Caption", sans-serif;
+    color: RGB(50, 54, 56);
+}
